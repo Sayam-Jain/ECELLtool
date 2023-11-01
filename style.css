@@ -23,8 +23,9 @@ section .leftBox {
   width: 50%;
   height: 50%;
   float: left;
-  padding: 50px;
+  padding: 18px;
   box-sizing: border-box;
+  text-align: justify;
 }
 
 section .leftBox .content {
@@ -32,6 +33,7 @@ section .leftBox .content {
   background: rgba(46, 3, 138, 0.562);
   padding: 100px;
   transition: .5s;
+  
 }
 
 section .leftBox .content:hover {
@@ -43,6 +45,7 @@ section .leftBox .content h1 {
   padding: 0;
   font-size: 50px;
   text-transform: uppercase;
+  
 }
 
 section .leftBox .content p {

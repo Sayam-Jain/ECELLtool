@@ -1,0 +1,36 @@
+body {
+  margin: 10px;
+  padding: 0;
+
+}
+
+.CALANDER {
+  margin: auto;
+  max-width: 800px;
+  font-family: serif;
+  font-weight: bold;
+  color: black;
+
+}
+.Month {
+  text-align: center;
+  background: white;
+  font-size: 80px;
+  letter-spacing: 1px;
+  color: black;
+  border: 2px solid red;
+} 
+table,th,td {
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  font-size: 27px;
+  border-collapse: collapse;
+  border: 5px solid black;
+  font-family: Elaphant;
+
+
+}
+tr,td,th {
+  padding: 15px;
+}

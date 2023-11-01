@@ -21,7 +21,7 @@ section {
 
 section .leftBox {
   width: 50%;
-  height: 50%;
+  height: 100%;
   float: left;
   padding: 18px;
   box-sizing: border-box;
@@ -38,6 +38,7 @@ section .leftBox .content {
 
 section .leftBox .content:hover {
   background: rgb(5, 13, 94);
+  transition: 0.5s;
 }
 
 section .leftBox .content h1 {
